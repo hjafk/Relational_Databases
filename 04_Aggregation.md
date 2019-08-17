@@ -24,10 +24,10 @@ FROM [table_name]
 
 ```sql
 SELECT [column_name], COUNT(*) 
-		FROM [table_name] 
-		WHERE [condition]
-		GROUP BY [column_name]
-		HAVING [condition]
+	FROM [table_name] 
+	WHERE [condition]
+	GROUP BY [column_name]
+	HAVING [condition]
 ORDER BY [column_name]; /* 排序 */
 ```
 
