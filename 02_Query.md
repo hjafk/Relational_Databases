@@ -166,7 +166,7 @@ Subqueries can also be speciﬁed within the WHERE-clause, e.g.,
 
 * in all these cases the condition involving the subquery can be negated using a preceding `NOT`.
 
-### Matching against multiple possible values
+### `IN`
 
 ```sql
 SELECT attribute_list 
@@ -182,9 +182,11 @@ FROM table_list;
 WHERE attribute_1 IN (number1,number2,number3);
 ```
 
-* `IN` 后面的内容可以换成一个返回对应元素种类的 Subquery.
+* `IN` 后面的内容可以换成一个返回一列的 Subquery.
 
+### `EXIST`
 
+[SQL 中的 EXISTS 到底做了什么？](https://zhuanlan.zhihu.com/p/20005249)
 
 
 
